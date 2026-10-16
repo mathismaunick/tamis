@@ -1,0 +1,49 @@
+{
+  "name": "tamis",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "next typegen && tsc --noEmit",
+    "test": "vitest run",
+    "db:migrate": "node --env-file=.env.local --import tsx scripts/migrate.ts",
+    "check:ai": "node --env-file=.env.local --import tsx scripts/check-ai.ts",
+    "data:build": "tsx scripts/build-dataset.ts",
+    "seed": "node --env-file=.env.local --import tsx scripts/seed.ts",
+    "demo:save": "node --env-file=.env.local --import tsx scripts/demo-snapshot.ts save",
+    "demo:restore": "node --env-file=.env.local --import tsx scripts/demo-snapshot.ts restore",
+    "pipeline": "node --env-file=.env.local --import tsx scripts/pipeline.ts",
+    "regroup": "node --env-file=.env.local --import tsx scripts/regroup.ts",
+    "rescore": "node --env-file=.env.local --import tsx scripts/rescore.ts",
+    "resynthesize": "node --env-file=.env.local --import tsx scripts/resynthesize.ts",
+    "eval": "node --env-file=.env.local --import tsx scripts/eval.ts"
+  },
+  "dependencies": {
+    "@ai-sdk/react": "3.0.309",
+    "@neondatabase/serverless": "1.2.0",
+    "ai": "6.0.306",
+    "next": "16.4.0",
+    "papaparse": "5.7.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "^4",
+    "@types/node": "^20",
+    "@types/papaparse": "5.5.2",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.0",
+    "tailwindcss": "^4",
+    "tsx": "4.23.15",
+    "typescript": "^5",
+    "vite": "6.4.1",
+    "vitest": "3.2.4"
+  },
+  "packageManager": "pnpm@10.34.2"
+}

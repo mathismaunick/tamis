@@ -1,0 +1,144 @@
+@import "tailwindcss";
+
+/*
+ * Système de design de Tamis (documenté dans DESIGN.md). L'agent porte l'indigo nuit, comme la barre latérale.
+ * Une couleur, un sens : froides pour les catégories MoSCoW, chaudes pour les alertes, une gamme de nuit pour les
+ * segments de clients. Pas d'ombre au repos : les blocs se détachent par un filet.
+ */
+:root {
+  --encre: #15162b;
+  --encre-2: #4a4d6a;
+  --encre-3: #6b6e8c;
+  --encre-4: #8a8da6; /* numéros de rang, légendes discrètes */
+  --trait: #e6e7ee;
+  --trait-2: #d5d7e2;
+  --trait-3: #c9cbd8; /* bordure au survol, composeur */
+  --papier: #ffffff;
+  --papier-2: #f4f5f8; /* survols, citations, demande du client */
+  --papier-3: #eeeff4; /* pistes des barres */
+
+  /* La marque et l'agent. */
+  --nuit: #1c1f5a;
+  --nuit-2: #232870;
+  --nuit-texte: #c7c9ec;
+  --nuit-doux: #9ea1d0;
+  --accent: #3c47c8; /* action principale, liens, messages du PO */
+  --accent-fort: #2c3599;
+  --accent-voile: #eef0ff;
+
+  /* MoSCoW : une couleur froide par catégorie, et sa version claire pour le fond nuit. */
+  --must: #3c47c8;
+  --should: #3d9be9;
+  --could: #1faf9a;
+  --wont: #b9bccd;
+  --must-clair: #8e97f5;
+  --should-clair: #6cbdf2;
+  --could-clair: #4fd1bb;
+  --should-voile: #eaf4fd;
+  /* Un état sans enjeu (brouillon, traitement automatique, « peut-être déjà », client bruyant) : un gris à part, pour
+     que le gris de « pas maintenant » ne serve qu'à cette catégorie. */
+  --neutre: #8a8da6;
+
+  /* Alertes : rouge pour le risque de départ, ambre pour ce qui attend une décision du PO (l'IA hésite, une
+     proposition attend son clic, une question reste ouverte). Rien d'autre n'est ambre, sauf le grain du logo.
+     L'ambre des points et des contours est foncé (3,30 sur le blanc) ; le grain du logo garde l'ambre clair. */
+  --rouge: #e5484d;
+  --rouge-encre: #b42323;
+  --ambre: #c97c0b;
+  --ambre-grain: #f2a33a;
+  --ambre-encre: #8a5300;
+
+  /* Segments de clients : une gamme de nuit, du plus gros au plus petit. */
+  --enterprise: #1c1f5a;
+  --pro: #6870da;
+  --starter: #b5baf0;
+
+  /* Le panneau de l'agent, à droite de chaque page : une teinte d'indigo, pour qu'il ne se fonde pas dans l'écran. */
+  --agent: #f4f5fc;
+  --agent-trait: #dfe2f4;
+  --ambre-voile: #fef3e2;
+}
+
+@theme inline {
+  --color-encre: var(--encre);
+  --color-encre-2: var(--encre-2);
+  --color-encre-3: var(--encre-3);
+  --color-encre-4: var(--encre-4);
+  --color-trait: var(--trait);
+  --color-trait-2: var(--trait-2);
+  --color-trait-3: var(--trait-3);
+  --color-papier: var(--papier);
+  --color-papier-2: var(--papier-2);
+  --color-papier-3: var(--papier-3);
+  --color-nuit: var(--nuit);
+  --color-nuit-2: var(--nuit-2);
+  --color-nuit-texte: var(--nuit-texte);
+  --color-nuit-doux: var(--nuit-doux);
+  --color-accent: var(--accent);
+  --color-accent-fort: var(--accent-fort);
+  --color-accent-voile: var(--accent-voile);
+  --color-must: var(--must);
+  --color-should: var(--should);
+  --color-could: var(--could);
+  --color-wont: var(--wont);
+  --color-must-clair: var(--must-clair);
+  --color-should-clair: var(--should-clair);
+  --color-could-clair: var(--could-clair);
+  --color-should-voile: var(--should-voile);
+  --color-neutre: var(--neutre);
+  --color-rouge: var(--rouge);
+  --color-rouge-encre: var(--rouge-encre);
+  --color-ambre: var(--ambre);
+  --color-ambre-grain: var(--ambre-grain);
+  --color-ambre-encre: var(--ambre-encre);
+  --color-enterprise: var(--enterprise);
+  --color-pro: var(--pro);
+  --color-starter: var(--starter);
+  --color-agent: var(--agent);
+  --color-agent-trait: var(--agent-trait);
+  --color-ambre-voile: var(--ambre-voile);
+
+  --font-sans: var(--font-schibsted), "Schibsted Grotesk", ui-sans-serif, system-ui, sans-serif;
+
+  /* Une seule ombre : celle des menus et des fenêtres, qui flottent au-dessus de la page. */
+  --shadow-menu: 0 12px 32px rgba(21, 22, 43, 0.14), 0 0 0 1px rgba(21, 22, 43, 0.06);
+}
+
+html {
+  color-scheme: light;
+}
+
+body {
+  background: var(--papier);
+  color: var(--encre);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Un lien se voit : l'indigo de l'action, sauf quand son composant choisit une autre couleur. */
+@layer base {
+  a {
+    color: var(--accent);
+  }
+  a:hover {
+    color: var(--accent-fort);
+  }
+}
+
+/* Focus toujours visible. */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

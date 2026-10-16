@@ -1,0 +1,36 @@
+"external_id","channel","client_name","client_segment","client_seats","client_mrr","author","received_at","text","language"
+"ML-124","email","Terre & Ciel Événements","pro",33,495,"Mathilde Roux","2026-10-12","Bonjour,
+
+Pour nos salons, il nous faudrait un diagramme de Gantt : visualiser l'enchaînement des tâches et voir tout de suite ce qui retarde le montage.
+
+Merci !
+Mathilde","fr"
+"ML-125","email","Batimo Construction","enterprise",260,5200,"Éric Lemoine","2026-10-12","Bonjour,
+
+Deux remarques après le dernier chantier :
+1) l'application mobile reste notre priorité, mes équipes notent encore tout sur papier ;
+2) recevoir les alertes de retard dans Microsoft Teams, où travaille toute l'équipe chantier, serait un vrai plus.
+
+Cordialement,
+Éric Lemoine","fr"
+"ZD-4815","ticket","Studio Cobalt","pro",30,450,"Hélène Petit","2026-10-12","Depuis la mise à jour d'hier, impossible de déplacer une carte d'une colonne à l'autre sur Safari.","fr"
+"APP-2229","in_app","Les Jardins de Léa","starter",4,36,"Léa","2026-10-13","Merci pour la vue calendrier, on voit enfin tous les passages du mois !","fr"
+"CRM-888","sales_call","Kairos Conseil","pro",52,780,"Hugo (commercial)","2026-10-13","Kairos (Paul Vasseur) : rappelle le besoin d'un rapport d'avancement mensuel pour leurs clients, généré depuis Orbit. Prêts à passer en Enterprise si ça arrive.","fr"
+"APP-2230","in_app","Fabrique Ondine","pro",24,360,"Pierre Durand","2026-10-13","On voudrait suivre le temps passé par projet pour savoir lesquels sont rentables","fr"
+"ML-126","email","Lumen Santé","enterprise",180,3600,"Claire Besson","2026-10-13","Bonjour,
+
+Nos chefs de projet gèrent plusieurs cliniques en parallèle. Une vue de la charge de chacun nous aiderait à répartir les nouveaux projets.
+
+Claire Besson","fr"
+"APP-2231","in_app","Studio Cobalt","pro",30,450,"Nathan","2026-10-14","inviter nos freelances sur un seul projet sans leur donner accès au reste","fr"
+"ML-127","email","Agence Pollen","pro",38,570,"Clara Fontaine","2026-10-14","Bonjour,
+
+Deux idées : des tâches qui se recréent toutes seules pour nos publications hebdomadaires, et un champ « budget » sur chaque projet.
+
+Merci,
+Clara","fr"
+"ML-128","email","Groupe Verrier","enterprise",150,3000,"Sophie Arnaud","2026-10-14","Bonjour,
+
+Aujourd'hui, nos clients valident les livrables par email et nous perdons la trace des validations. Pouvoir demander une validation formelle d'un livrable directement dans Orbit, avec la date et la personne qui a validé, sécuriserait nos projets.
+
+Sophie Arnaud","fr"

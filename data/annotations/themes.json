@@ -1,0 +1,82 @@
+{
+  "themes": {
+    "notifications": {
+      "title": "Notifications dans les outils de l'équipe",
+      "need": "Être prévenu là où l'équipe travaille déjà (Slack, Teams) quand une tâche change, sans ouvrir Orbit."
+    },
+    "dependances": {
+      "title": "Dépendances entre tâches",
+      "need": "Voir quelles tâches en bloquent d'autres, pour anticiper les retards et respecter l'ordre des travaux."
+    },
+    "reporting": {
+      "title": "Rapports d'avancement",
+      "need": "Rendre compte de l'avancement des projets à la direction ou au client sans tout ressaisir."
+    },
+    "mobile": {
+      "title": "Usage mobile sur le terrain",
+      "need": "Consulter et mettre à jour ses tâches depuis le terrain, sur téléphone, même avec un réseau faible."
+    },
+    "temps": {
+      "title": "Suivi du temps passé",
+      "need": "Savoir combien de temps chaque tâche a réellement pris, pour facturer et mieux chiffrer."
+    },
+    "champs": {
+      "title": "Champs personnalisés",
+      "need": "Ajouter aux tâches et aux projets les informations propres à chaque métier, et filtrer dessus."
+    },
+    "charge": {
+      "title": "Charge de travail de l'équipe",
+      "need": "Voir qui est surchargé et qui est disponible avant d'assigner une tâche."
+    },
+    "invites": {
+      "title": "Accès des intervenants externes",
+      "need": "Faire participer un client ou un prestataire à un seul projet, sans lui ouvrir le reste de l'espace."
+    },
+    "recurrence": {
+      "title": "Tâches récurrentes et modèles",
+      "need": "Ne pas recréer à la main les tâches et les projets qui reviennent régulièrement."
+    },
+    "validation": {
+      "title": "Validation des livrables par le client",
+      "need": "Faire valider formellement un livrable par le client dans l'outil, avec une trace de qui a validé et quand."
+    }
+  },
+  "expectedRanking": [
+    {
+      "theme": "dependances",
+      "impact": 2
+    },
+    {
+      "theme": "reporting",
+      "impact": 1
+    },
+    {
+      "theme": "mobile",
+      "impact": 2
+    },
+    {
+      "theme": "charge",
+      "impact": 1
+    },
+    {
+      "theme": "temps",
+      "impact": 1
+    },
+    {
+      "theme": "invites",
+      "impact": 2
+    },
+    {
+      "theme": "recurrence",
+      "impact": 0.5
+    },
+    {
+      "theme": "champs",
+      "impact": 1
+    },
+    {
+      "theme": "notifications",
+      "impact": 1
+    }
+  ]
+}

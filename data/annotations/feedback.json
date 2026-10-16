@@ -1,0 +1,964 @@
+{
+  "ML-101": {
+    "batch": "seed",
+    "client": "Nexalis",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "notifications"
+      }
+    ],
+    "traps": [
+      "client_bruyant"
+    ]
+  },
+  "CRM-881": {
+    "batch": "seed",
+    "client": "Groupe Verrier",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "dependances"
+      }
+    ],
+    "traps": [
+      "solution_vs_besoin"
+    ]
+  },
+  "ZD-4801": {
+    "batch": "seed",
+    "client": "Nexalis",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "notifications"
+      }
+    ],
+    "traps": [
+      "client_bruyant"
+    ]
+  },
+  "ML-102": {
+    "batch": "seed",
+    "client": "Batimo Construction",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "mobile"
+      }
+    ],
+    "traps": []
+  },
+  "APP-2201": {
+    "batch": "seed",
+    "client": "Cocotte Studio",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "recurrence"
+      }
+    ],
+    "traps": []
+  },
+  "ML-103": {
+    "batch": "seed",
+    "client": "Groupe Verrier",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "reporting"
+      }
+    ],
+    "traps": []
+  },
+  "APP-2202": {
+    "batch": "seed",
+    "client": "Nexalis",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "notifications"
+      }
+    ],
+    "traps": [
+      "client_bruyant"
+    ]
+  },
+  "ML-104": {
+    "batch": "seed",
+    "client": "Kairos Conseil",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "temps"
+      },
+      {
+        "kind": "feature",
+        "theme": "champs"
+      }
+    ],
+    "traps": [
+      "deux_demandes"
+    ]
+  },
+  "ZD-4802": {
+    "batch": "seed",
+    "client": "Groupe Verrier",
+    "expected": [
+      {
+        "kind": "bug"
+      }
+    ],
+    "traps": [
+      "bug_deguise"
+    ]
+  },
+  "ML-105": {
+    "batch": "seed",
+    "client": "Atelier Nord",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "dependances"
+      }
+    ],
+    "traps": [
+      "solution_vs_besoin"
+    ]
+  },
+  "CRM-882": {
+    "batch": "seed",
+    "client": "Nexalis",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "notifications"
+      }
+    ],
+    "traps": [
+      "client_bruyant"
+    ]
+  },
+  "APP-2203": {
+    "batch": "seed",
+    "client": "Les Jardins de Léa",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "mobile"
+      }
+    ],
+    "traps": []
+  },
+  "ML-106": {
+    "batch": "seed",
+    "client": "Yuzu Digital",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "charge"
+      }
+    ],
+    "traps": [
+      "anglais"
+    ]
+  },
+  "ZD-4803": {
+    "batch": "seed",
+    "client": "Agence Pollen",
+    "expected": [
+      {
+        "kind": "bug"
+      }
+    ],
+    "traps": []
+  },
+  "ML-107": {
+    "batch": "seed",
+    "client": "Lumen Santé",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "champs"
+      }
+    ],
+    "traps": []
+  },
+  "ML-108": {
+    "batch": "seed",
+    "client": "Nexalis",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "notifications"
+      }
+    ],
+    "traps": [
+      "client_bruyant"
+    ]
+  },
+  "ZD-4804": {
+    "batch": "seed",
+    "client": "Kairos Conseil",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "dependances"
+      }
+    ],
+    "traps": []
+  },
+  "APP-2204": {
+    "batch": "seed",
+    "client": "Studio Cobalt",
+    "expected": [
+      {
+        "kind": "praise"
+      }
+    ],
+    "traps": [
+      "remerciement"
+    ]
+  },
+  "ML-109": {
+    "batch": "seed",
+    "client": "Les Jardins de Léa",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "recurrence"
+      }
+    ],
+    "traps": []
+  },
+  "CRM-883": {
+    "batch": "seed",
+    "client": "Lumen Santé",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "reporting"
+      }
+    ],
+    "traps": []
+  },
+  "ZD-4805": {
+    "batch": "seed",
+    "client": "Nexalis",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "notifications"
+      }
+    ],
+    "traps": [
+      "client_bruyant"
+    ]
+  },
+  "APP-2205": {
+    "batch": "seed",
+    "client": "Fabrique Ondine",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "dependances"
+      }
+    ],
+    "traps": [
+      "solution_vs_besoin"
+    ]
+  },
+  "ML-110": {
+    "batch": "seed",
+    "client": "Terre & Ciel Événements",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "mobile"
+      }
+    ],
+    "traps": []
+  },
+  "ZD-4806": {
+    "batch": "seed",
+    "client": "Kairos Conseil",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "temps"
+      }
+    ],
+    "traps": []
+  },
+  "ML-111": {
+    "batch": "seed",
+    "client": "Cabinet Ravel",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "reporting"
+      }
+    ],
+    "traps": [
+      "existe_deja"
+    ]
+  },
+  "APP-2206": {
+    "batch": "seed",
+    "client": "Nexalis",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "notifications"
+      }
+    ],
+    "traps": [
+      "client_bruyant"
+    ]
+  },
+  "CRM-884": {
+    "batch": "seed",
+    "client": "Groupe Verrier",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "charge"
+      }
+    ],
+    "traps": []
+  },
+  "ML-112": {
+    "batch": "seed",
+    "client": "Lumen Santé",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "invites"
+      }
+    ],
+    "traps": []
+  },
+  "APP-2207": {
+    "batch": "seed",
+    "client": "Monsieur Vélo",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "mobile"
+      }
+    ],
+    "traps": []
+  },
+  "ML-113": {
+    "batch": "seed",
+    "client": "Studio Cobalt",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "reporting"
+      }
+    ],
+    "traps": []
+  },
+  "ZD-4807": {
+    "batch": "seed",
+    "client": "Studio Cobalt",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "reporting"
+      }
+    ],
+    "traps": [
+      "doublon"
+    ]
+  },
+  "ZD-4808": {
+    "batch": "seed",
+    "client": "Nexalis",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "notifications"
+      }
+    ],
+    "traps": [
+      "client_bruyant"
+    ]
+  },
+  "ML-114": {
+    "batch": "seed",
+    "client": "Cabinet Ravel",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "temps"
+      }
+    ],
+    "traps": []
+  },
+  "APP-2208": {
+    "batch": "seed",
+    "client": "Bureau Lagune",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "dependances"
+      }
+    ],
+    "traps": []
+  },
+  "ZD-4809": {
+    "batch": "seed",
+    "client": "Lumen Santé",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "champs"
+      }
+    ],
+    "traps": []
+  },
+  "APP-2209": {
+    "batch": "seed",
+    "client": "Pixel Rivage",
+    "expected": [
+      {
+        "kind": "question"
+      }
+    ],
+    "traps": []
+  },
+  "ML-115": {
+    "batch": "seed",
+    "client": "Agence Pollen",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "notifications"
+      }
+    ],
+    "traps": []
+  },
+  "ML-116": {
+    "batch": "seed",
+    "client": "Fabrique Ondine",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "charge"
+      }
+    ],
+    "traps": []
+  },
+  "CRM-885": {
+    "batch": "seed",
+    "client": "Batimo Construction",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "mobile"
+      }
+    ],
+    "traps": []
+  },
+  "APP-2210": {
+    "batch": "seed",
+    "client": "Atelier Nord",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "invites"
+      }
+    ],
+    "traps": []
+  },
+  "ML-117": {
+    "batch": "seed",
+    "client": "Maison Opale",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "reporting"
+      }
+    ],
+    "traps": [
+      "injection"
+    ]
+  },
+  "ML-118": {
+    "batch": "seed",
+    "client": "Nexalis",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "notifications"
+      }
+    ],
+    "traps": [
+      "client_bruyant",
+      "churn"
+    ]
+  },
+  "APP-2211": {
+    "batch": "seed",
+    "client": "Studio Cobalt",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "temps"
+      }
+    ],
+    "traps": []
+  },
+  "ZD-4810": {
+    "batch": "seed",
+    "client": "Monsieur Vélo",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "recurrence"
+      }
+    ],
+    "traps": []
+  },
+  "APP-2212": {
+    "batch": "seed",
+    "client": "Fabrique Ondine",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "charge"
+      }
+    ],
+    "traps": []
+  },
+  "ML-119": {
+    "batch": "seed",
+    "client": "Batimo Construction",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "dependances"
+      }
+    ],
+    "traps": [
+      "solution_vs_besoin"
+    ]
+  },
+  "CRM-886": {
+    "batch": "seed",
+    "client": "Nexalis",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "notifications"
+      }
+    ],
+    "traps": [
+      "client_bruyant",
+      "churn"
+    ]
+  },
+  "APP-2213": {
+    "batch": "seed",
+    "client": "Les Jardins de Léa",
+    "expected": [
+      {
+        "kind": "bug"
+      }
+    ],
+    "traps": []
+  },
+  "ZD-4811": {
+    "batch": "seed",
+    "client": "Groupe Verrier",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "reporting"
+      }
+    ],
+    "traps": []
+  },
+  "APP-2214": {
+    "batch": "seed",
+    "client": "Collectif Brique",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "champs"
+      }
+    ],
+    "traps": []
+  },
+  "ML-120": {
+    "batch": "seed",
+    "client": "Maison Opale",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "invites"
+      }
+    ],
+    "traps": []
+  },
+  "APP-2215": {
+    "batch": "seed",
+    "client": "Pixel Rivage",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "notifications"
+      }
+    ],
+    "traps": []
+  },
+  "ZD-4812": {
+    "batch": "seed",
+    "client": "Terre & Ciel Événements",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "mobile"
+      }
+    ],
+    "traps": []
+  },
+  "APP-2216": {
+    "batch": "seed",
+    "client": "Kairos Conseil",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "reporting"
+      }
+    ],
+    "traps": []
+  },
+  "ML-121": {
+    "batch": "seed",
+    "client": "Collectif Brique",
+    "expected": [
+      {
+        "kind": "praise"
+      }
+    ],
+    "traps": [
+      "remerciement"
+    ]
+  },
+  "APP-2217": {
+    "batch": "seed",
+    "client": "Nexalis",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "notifications"
+      }
+    ],
+    "traps": [
+      "client_bruyant"
+    ]
+  },
+  "APP-2218": {
+    "batch": "seed",
+    "client": "Monsieur Vélo",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "champs"
+      }
+    ],
+    "traps": []
+  },
+  "ZD-4813": {
+    "batch": "seed",
+    "client": "Lumen Santé",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "invites"
+      }
+    ],
+    "traps": []
+  },
+  "APP-2219": {
+    "batch": "seed",
+    "client": "Atelier Nord",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "mobile"
+      }
+    ],
+    "traps": []
+  },
+  "APP-2220": {
+    "batch": "seed",
+    "client": "Yuzu Digital",
+    "expected": [
+      {
+        "kind": "question"
+      }
+    ],
+    "traps": [
+      "anglais"
+    ]
+  },
+  "ZD-4814": {
+    "batch": "seed",
+    "client": "Groupe Verrier",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "charge"
+      }
+    ],
+    "traps": []
+  },
+  "APP-2221": {
+    "batch": "seed",
+    "client": "Les Jardins de Léa",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "recurrence"
+      }
+    ],
+    "traps": []
+  },
+  "CRM-887": {
+    "batch": "seed",
+    "client": "Agence Pollen",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "temps"
+      }
+    ],
+    "traps": []
+  },
+  "ML-122": {
+    "batch": "seed",
+    "client": "Cabinet Ravel",
+    "expected": [
+      {
+        "kind": "other"
+      }
+    ],
+    "traps": []
+  },
+  "APP-2222": {
+    "batch": "seed",
+    "client": "Terre & Ciel Événements",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "charge"
+      }
+    ],
+    "traps": []
+  },
+  "APP-2223": {
+    "batch": "seed",
+    "client": "Bureau Lagune",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "recurrence"
+      }
+    ],
+    "traps": []
+  },
+  "APP-2224": {
+    "batch": "seed",
+    "client": "Pixel Rivage",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "temps"
+      }
+    ],
+    "traps": []
+  },
+  "APP-2225": {
+    "batch": "seed",
+    "client": "Monsieur Vélo",
+    "expected": [
+      {
+        "kind": "other"
+      }
+    ],
+    "traps": []
+  },
+  "APP-2226": {
+    "batch": "seed",
+    "client": "Collectif Brique",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "invites"
+      }
+    ],
+    "traps": []
+  },
+  "ML-123": {
+    "batch": "seed",
+    "client": "Collectif Brique",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "recurrence"
+      }
+    ],
+    "traps": []
+  },
+  "APP-2227": {
+    "batch": "seed",
+    "client": "Cocotte Studio",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "charge"
+      }
+    ],
+    "traps": []
+  },
+  "APP-2228": {
+    "batch": "seed",
+    "client": "Agence Pollen",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "notifications"
+      }
+    ],
+    "traps": []
+  },
+  "ML-124": {
+    "batch": "new_batch",
+    "client": "Terre & Ciel Événements",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "dependances"
+      }
+    ],
+    "traps": [
+      "solution_vs_besoin"
+    ]
+  },
+  "ML-125": {
+    "batch": "new_batch",
+    "client": "Batimo Construction",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "mobile"
+      },
+      {
+        "kind": "feature",
+        "theme": "notifications"
+      }
+    ],
+    "traps": [
+      "deux_demandes",
+      "solution_vs_besoin"
+    ]
+  },
+  "ZD-4815": {
+    "batch": "new_batch",
+    "client": "Studio Cobalt",
+    "expected": [
+      {
+        "kind": "bug"
+      }
+    ],
+    "traps": []
+  },
+  "APP-2229": {
+    "batch": "new_batch",
+    "client": "Les Jardins de Léa",
+    "expected": [
+      {
+        "kind": "praise"
+      }
+    ],
+    "traps": [
+      "remerciement"
+    ]
+  },
+  "CRM-888": {
+    "batch": "new_batch",
+    "client": "Kairos Conseil",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "reporting"
+      }
+    ],
+    "traps": []
+  },
+  "APP-2230": {
+    "batch": "new_batch",
+    "client": "Fabrique Ondine",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "temps"
+      }
+    ],
+    "traps": []
+  },
+  "ML-126": {
+    "batch": "new_batch",
+    "client": "Lumen Santé",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "charge"
+      }
+    ],
+    "traps": []
+  },
+  "APP-2231": {
+    "batch": "new_batch",
+    "client": "Studio Cobalt",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "invites"
+      }
+    ],
+    "traps": []
+  },
+  "ML-127": {
+    "batch": "new_batch",
+    "client": "Agence Pollen",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "recurrence"
+      },
+      {
+        "kind": "feature",
+        "theme": "champs"
+      }
+    ],
+    "traps": [
+      "deux_demandes"
+    ]
+  },
+  "ML-128": {
+    "batch": "new_batch",
+    "client": "Groupe Verrier",
+    "expected": [
+      {
+        "kind": "feature",
+        "theme": "validation"
+      }
+    ],
+    "traps": []
+  }
+}

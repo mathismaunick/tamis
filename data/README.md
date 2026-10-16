@@ -54,7 +54,7 @@ Les numéros F sont ceux de l'application après `pnpm seed` puis l'import de `n
 
 `data/dataset.ts` est la source : chaque retour y est écrit avec ce qu'un PO attentif en extrairait. `pnpm data:build` en tire les CSV, les annotations, et le fichier d'exemple téléchargeable depuis l'interface (`public/exemples/nouveaux-retours.csv`).
 
-Le code de l'application n'importe jamais `data/` : les annotations ne peuvent pas fuiter dans les prompts. Seuls le seed et les évals les lisent.
+Le code de l'application n'importe jamais `data/` : seuls le seed et les évals lisent les annotations. Les prompts, eux, reprennent quelques cas du jeu dans leurs exemples (un Gantt, Slack, le temps passé et la charge de l'équipe) : la limite est décrite dans [docs/EVALS.md](../docs/EVALS.md).
 
 ## Format du CSV d'import
 

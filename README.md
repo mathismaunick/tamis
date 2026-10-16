@@ -34,7 +34,7 @@ Le nom vient du geste du PO : passer des dizaines de retours au tamis pour ne ga
 | Proposer un scoring sur plusieurs critères | RICE : clients distincts (calculés), impact, confiance et effort proposés par le modèle avec une justification, médiane de trois propositions. |
 | Appliquer des frameworks (RICE, MoSCoW) | Score RICE et rang calculés par le code ; MoSCoW suggéré selon la capacité de l'équipe (30 points par cycle) et modifiable ; vues Cycles, Liste complète et Matrice RICE. Pourquoi pas ICE, WSJF ni Kano : [docs/DECISIONS.md](docs/DECISIONS.md). |
 | Expliquer et justifier les recommandations | Chaque besoin dit en une phrase pourquoi il est à sa place (« Le plus demandé, mais un impact jugé moyen »), calculée par le code ; l'agent recommande en une phrase, et la carte affichée sous sa réponse montre les preuves ; chaque facteur affiche son origine (code, IA, PO), sa justification, et le doute de l'IA quand ses propositions divergent ; journal des décisions. |
-| Générer des user stories | Story rédigée à partir des preuves du besoin : persona précis, besoin, bénéfice ; éditable, versionnée, exportable en Markdown. |
+| Générer des user stories | Story rédigée à partir des preuves du besoin : persona précis, besoin, bénéfice ; éditable (chaque enregistrement augmente son numéro de version, sans garder l'ancienne), exportable en Markdown. |
 | Proposer des critères d'acceptation | Trois à cinq critères Étant donné / Quand / Alors, observables et testables. |
 | Estimer la complexité relative | Points relatifs aux stories de référence de l'équipe, avec les références citées : un point de départ pour le planning poker. |
 
@@ -110,6 +110,7 @@ Chaque tâche a son modèle, déclaré dans [lib/ai/models.ts](lib/ai/models.ts)
 ## Limites connues
 
 - Le jeu de données est synthétique et petit (82 retours) : les évals prouvent que le mécanisme fonctionne et se mesure, pas qu'il performerait sur des données réelles.
+- Le jeu annoté a aussi servi à mettre au point les prompts, et quelques exemples en reprennent des cas (un Gantt rangé avec les dépendances, Slack, le temps passé distinct de la charge de l'équipe) : l'éval du regroupement est optimiste sur ces cas. Le détail est dans [docs/EVALS.md](docs/EVALS.md).
 - Pas d'authentification ni de multi-utilisateur : un code d'accès protège la démo en ligne. La conversation avec l'agent vit dans l'onglet du navigateur.
 - Pas d'intégrations réelles (support, ticketing) : import CSV ou retour collé, export Markdown et CSV.
 - Le regroupement au fil de l'eau dépend de l'ordre d'arrivée ; une passe de consolidation en fin d'import, puis le regroupement manuel de deux besoins, corrigent les découpages en trop.

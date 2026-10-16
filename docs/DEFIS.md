@@ -42,7 +42,7 @@ Le journal des difficultés réelles du développement, tenu au fil de l'eau. Ch
 
 - **Constat.** Les modèles récents ne permettent plus de régler la température. Deux exécutions du pré-scoring sur les mêmes thèmes donnaient des Impacts différents, et le classement changeait.
 - **Solution.** Une grille d'Impact concrète dans le prompt (« 2, fort : supprime un contournement coûteux et régulier »), puis trois propositions en parallèle pour chaque thème : le code garde la médiane de chaque facteur et affiche l'accord (« 2 propositions sur 3 »). La latence ne change pas ; le coût de cette étape triple, soit quelques centimes par import. L'éval E5 compare la stabilité avec une et trois propositions.
-- **Ce qu'on en retient.** Sans température, la stabilité se conçoit (catégories discrètes, résultats persistés, consensus) et se mesure.
+- **Ce qu'on en retient.** Sans température, la stabilité se conçoit (catégories discrètes, une grille concrète, résultats persistés) et se mesure. La mesure a aussi corrigé une intuition : la médiane de trois propositions n'est pas plus stable qu'une seule (0,96 contre 0,91 à une passe, 0,92 contre 0,95 à la dernière ; sur une dizaine de besoins, l'écart n'est pas significatif). Elle reste pour l'accord, qui montre au PO où l'IA hésite.
 
 ## Interface
 
